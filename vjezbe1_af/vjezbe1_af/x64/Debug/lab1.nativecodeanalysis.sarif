@@ -1,0 +1,1094 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'filePointer==10' could be '0':  this does not adhere to the specification for the function 'fgetc'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 7,
+                  "endLine": 32,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'filePointer' could be '0':  this does not adhere to the specification for the function 'feof'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 9,
+                  "endLine": 31,
+                  "endColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'feof' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:166)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '!feof(filePointer)')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' should not be NULL, because this is not consistent with the SAL annotation on 'feof'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'filePointer' could be '0':  this does not adhere to the specification for the function 'rewind'. See line 31 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                },
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 2,
+                  "endLine": 44,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'feof' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:166)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '!feof(filePointer)')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!student' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'rewind' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:392)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' should not be NULL, because this is not consistent with the SAL annotation on 'rewind'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'filePointer' could be '0':  this does not adhere to the specification for the function 'fclose'. See line 31 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                },
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 2,
+                  "endLine": 46,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' may be NULL (Enter this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'feof' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:166)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '!feof(filePointer)')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 40,
+                            "startColumn": 6
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '!student' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'rewind' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:392)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an In/Out argument to 'readFromFile' (declared on line 19)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' is an Input to 'fclose' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:152)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 2
+                          }
+                        },
+                        "message": {
+                          "text": "'filePointer' should not be NULL, because this is not consistent with the SAL annotation on 'fclose'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+                },
+                "region": {
+                  "startLine": 56,
+                  "startColumn": 3,
+                  "endLine": 56,
+                  "endColumn": 88
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "readFromFile",
+                  "decoratedName": "readFromFile",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33130.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/frade/Desktop/strukture2025_anafradelic/vjezbe1_af/vjezbe1_af/lab1.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "403d55d18ef5ea11a33dcc18a022083bab3608691e07ad8b619d6f0c682d5f6e"
+          }
+        }
+      ]
+    }
+  ]
+}
