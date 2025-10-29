@@ -1,0 +1,4 @@
+﻿  vjezba2.c
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba2_af\vjezba2_af\vjezba2.c(180,4): warning C4047: 'return': 'int' differs in levels of indirection from 'Position'
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba2_af\vjezba2_af\vjezba2.c(164): warning C4172: returning address of local variable or temporary: surname
+  vjezba2_af.vcxproj -> C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba2_af\x64\Debug\vjezba2_af.exe
