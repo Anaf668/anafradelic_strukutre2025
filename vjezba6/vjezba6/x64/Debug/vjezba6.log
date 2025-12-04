@@ -1,0 +1,9 @@
+﻿  vjezba6.c
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(78): warning C4715: 'readfromfile': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(126): warning C4715: 'openbills': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(187): warning C4715: 'readbills': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(164): warning C4715: 'openandinsert': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(199): warning C4716: 'billinsert': must return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(288): warning C4715: 'menu': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\vjezba6\vjezba6.c(245): warning C4716: 'sortdates': must return a value
+  vjezba6.vcxproj -> C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba6\x64\Debug\vjezba6.exe
