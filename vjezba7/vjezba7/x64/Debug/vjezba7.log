@@ -1,0 +1,4 @@
+﻿  vjezba7.c
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba7\vjezba7\vjezba7.c(187): warning C4715: 'push': not all control paths return a value
+C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba7\vjezba7\vjezba7.c(182,9): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+  vjezba7.vcxproj -> C:\Users\frade\Desktop\anafradelic_strukture2025\vjezba2_af\vjezba7\x64\Debug\vjezba7.exe
